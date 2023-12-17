@@ -14,14 +14,44 @@ ul {
 
 button {
     background-color: var(--grey);
-    border-color: none;
+    border: none;
 }
 
 footer {
     background-color: var(--grey);
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
 }
 
 header {
     display: flex;
     justify-content:space-between;
+    align-content: flex-start;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.inline {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.start {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
