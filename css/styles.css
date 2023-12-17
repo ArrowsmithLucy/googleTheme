@@ -1,9 +1,16 @@
 :root {
+    /*Colours*/
     --grey: #f8f9fa;
+
+    /*Font Styles*/
+    --arial: arial, sans-serif;
+    --helvetica: helvetica, arial, sans-serif;
 }
 
+/* HTML tag styles */
 body {
-    font-style: arial, sans-serif;
+    font-style: var(--arial);
+    font-size: 14px;
 }
 
 ul {
@@ -28,12 +35,24 @@ footer {
     align-content: flex-end;
 }
 
-header {
-    display: flex;
-    justify-content:space-between;
-    align-content: flex-start;
+/* <a> Styles */
+a {
+    text-decoration: none;
+    color:black;
+    padding: 5px;
 }
 
+a:first-of-type {
+    margin-left: 15px !important;
+}
+a:last-of-type {
+    margin-right: 11px;
+}
+
+
+
+
+/* Display flex styles */
 .center {
     display: flex;
     justify-content: center;
@@ -70,4 +89,23 @@ header {
 .space-around {
     display: flex;
     justify-content: space-between;
+}
+
+
+/* Child styles */
+.header__margin {
+    padding: 6px;
+}
+
+div.nav > a {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+div.nav.small > a {
+    font-size: 13px;
+    font-style: var(--helvetica);
 }
