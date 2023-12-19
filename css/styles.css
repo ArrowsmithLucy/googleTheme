@@ -105,6 +105,10 @@ a:last-of-type {
     justify-content: space-between;
 }
 
+.fill {
+    width: 79%;
+}
+
 
 /* Child styles */
 .header__margin {
@@ -135,4 +139,50 @@ div.nav.small > a {
 .icon-box {
     padding: 5px;
     margin: 0 6px;
+}
+
+/*Google image*/
+.google-img {
+    height: 150px;
+    width: 375px;
+}
+
+/*Search buttons*/
+.search {
+    width: 584px;
+    min-height: 44px;
+    /* border: solid 1px gray; */
+}
+
+.search__margin {
+    margin-top: 30px;
+}
+
+.search__icons {
+    width: 7%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    /* border: solid 1px gray; */
+}
+
+.search__border-tb {
+    border: solid;
+    border-width: 1px 0;
+    border-color: gray;
+}
+
+.b-left {
+    border: solid;
+    border-width: 1px 0 1px 1px;
+    border-color: gray;
+    border-radius: 50% 0 0 50%;
+}
+
+.b-right {
+    border: solid;
+    border-width: 1px 1px 1px 0;
+    border-color: gray;
+    border-radius: 0 50% 50% 0;
 }
