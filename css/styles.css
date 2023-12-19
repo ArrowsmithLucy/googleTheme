@@ -56,7 +56,7 @@ a:last-of-type {
   'FILL' 0,
   'wght' 400,
   'GRAD' 0,
-  'opsz' 24
+  'opsz' 24;
 }
 
 
@@ -64,6 +64,12 @@ a:last-of-type {
 .center {
     display: flex;
     justify-content: center;
+}
+
+.center-vertical {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .inline {
@@ -116,4 +122,17 @@ div.nav > a {
 div.nav.small > a {
     font-size: 13px;
     font-style: var(--helvetica);
+}
+
+/* Circle - profile icon */
+
+.circle {
+    background-color: red;
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+}
+
+.icon-box {
+    padding: 5px 15px;
 }
