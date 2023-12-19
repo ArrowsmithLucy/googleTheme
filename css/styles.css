@@ -46,7 +46,7 @@ a:first-of-type {
     margin-left: 15px !important;
 }
 a:last-of-type {
-    margin-right: 11px;
+    margin-right: 13px !important;
 }
 
 
@@ -114,7 +114,7 @@ a:last-of-type {
 div.nav > a {
     margin-top: 8px;
     margin-bottom: 8px;
-    margin-right: 5px;
+    margin-right: 2px;
     margin-left: 5px;
     padding: 5px;
 }
@@ -128,11 +128,12 @@ div.nav.small > a {
 
 .circle {
     background-color: red;
-    height: 33px;
-    width: 33px;
+    height: 32px;
+    width: 32px;
     border-radius: 50%;
 }
 
 .icon-box {
-    padding: 5px 15px;
+    padding: 5px;
+    margin: 0 6px;
 }
