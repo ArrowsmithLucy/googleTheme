@@ -1,6 +1,7 @@
 :root {
     /*Colours*/
     --grey: #f8f9fa;
+    --rainbow: linear-gradient(90deg, rgba(0,212,255,1) 9%, rgba(0,224,42,1) 30%, rgba(236,217,8,1) 54%, rgba(255,134,5,1) 77%, rgba(224,0,0,1) 95%);
 
     /*Font Styles*/
     --arial: arial, sans-serif;
@@ -30,10 +31,14 @@ button {
 
 footer {
     background-color: var(--grey);
-    display: flex;
-    justify-content: space-around;
-    align-content: flex-end;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto !important;
 }
+
+
 
 /* <a> Styles */
 a {
@@ -143,8 +148,8 @@ div.nav.small > a {
 
 /*Google image*/
 .google-img {
-    height: 150px;
-    width: 375px;
+    height: 200px;
+    width: 500px;
 }
 
 /*Search buttons*/
@@ -164,25 +169,26 @@ div.nav.small > a {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
+    color: var(--rainbow);
     /* border: solid 1px gray; */
 }
 
 .search__border-tb {
     border: solid;
     border-width: 1px 0;
-    border-color: gray;
+    border-color: #dbdbdb;
 }
 
 .b-left {
     border: solid;
     border-width: 1px 0 1px 1px;
-    border-color: gray;
+    border-color: #dbdbdb;
     border-radius: 50% 0 0 50%;
 }
 
 .b-right {
     border: solid;
     border-width: 1px 1px 1px 0;
-    border-color: gray;
+    border-color: #dbdbdb;
     border-radius: 0 50% 50% 0;
 }
