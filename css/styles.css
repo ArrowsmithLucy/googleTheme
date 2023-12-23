@@ -11,7 +11,7 @@
 /* HTML tag styles */
 body {
     font-style: var(--arial);
-    font-size: 14px;
+    font-size: 16px;
 }
 
 ul {
@@ -110,6 +110,11 @@ a:last-of-type {
     justify-content: space-between;
 }
 
+.space-evenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .fill {
     width: 79%;
 }
@@ -169,8 +174,7 @@ div.nav.small > a {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    color: var(--rainbow);
-    /* border: solid 1px gray; */
+    color: #b5b2b2;
 }
 
 .search__border-tb {
@@ -191,4 +195,26 @@ div.nav.small > a {
     border-width: 1px 1px 1px 0;
     border-color: #dbdbdb;
     border-radius: 0 50% 50% 0;
+}
+
+/* Search buttons */
+.search__btns {
+    margin: 11px 4px;
+    padding: 0 16px;
+    border: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #3c4043;
+    height: 36px;
+    min-width: 54px;
+}
+
+/*Footer*/
+.footer-top {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+}
+
+.footer-btm {
+    padding: 10px 20px;
 }
