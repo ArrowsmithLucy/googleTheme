@@ -116,7 +116,7 @@ a:last-of-type {
 }
 
 .fill {
-    width: 79%;
+    width: 76%;
 }
 
 
@@ -153,14 +153,18 @@ div.nav.small > a {
 
 /*Google image*/
 .google-img {
-    height: 200px;
-    width: 500px;
+    height: 220px;
+    width: 550px;
+}
+
+.google-img__margin {
+    margin-top: 100px;
 }
 
 /*Search buttons*/
 .search {
-    width: 584px;
-    min-height: 44px;
+    width: 640px;
+    min-height: 53px;
     /* border: solid 1px gray; */
 }
 
@@ -169,7 +173,7 @@ div.nav.small > a {
 }
 
 .search__icons {
-    width: 7%;
+    width: 8%;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -199,9 +203,10 @@ div.nav.small > a {
 
 /* Search buttons */
 .search__btns {
-    margin: 11px 4px;
-    padding: 0 16px;
+    margin: 11px 6px;
+    padding: 5px 18px;
     border: 1px;
+    border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: #3c4043;
@@ -216,5 +221,16 @@ div.nav.small > a {
 }
 
 .footer-btm {
-    padding: 10px 20px;
+    padding: 4px 20px;
+}
+
+
+
+/* -------- CSS ACTIONS -------- */
+a:hover {
+    text-decoration: underline;
+}
+
+li:hover {
+    text-decoration: underline;
 }
