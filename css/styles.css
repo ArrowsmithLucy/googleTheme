@@ -234,3 +234,7 @@ a:hover {
 li:hover {
     text-decoration: underline;
 }
+
+input[type=search]:focus {
+    border: none;
+}
